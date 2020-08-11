@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(weather.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+    color: #000; 
+
+}
+body{
+    font-family: "Nunito",sans-serif;
+}
+.button{
+    margin-top: 50px;
+}
+.input{
+    text-align: center;
+    margin: 60px 0;
+}
+input[type="text"]{
+    height: 50px;
+    width: 500px;
+    background: #e7e7e7;
+    font-weight: bold;
+    font-size: 20px;
+    border:none;
+    border-radius: 2px;
+    padding: 10px 10px;
+
+}
+input[type="submit"]{
+    height: 50px;
+    width: 500px;
+    background:gray;
+    font-weight: bold;
+    font-size: 20px;
+    border:none;
+    border-radius: 2px;
+}
+
+.display{
+    text-align: center;
+    
+}
+h3{
+    color:red;
+}
+p{
+    color: black;
+}
+footer{
+    text-align: center;
+    margin-top: 70px;
+    text-shadow: red;
+}
